@@ -104,6 +104,7 @@ nav a {
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
+    display: flex;
 }
 
 .locations img {
@@ -115,16 +116,16 @@ nav a {
     position: absolute;
     top: 50px;
     width: 100%;
-    text-align: center;
+    justify-content: center;
 }
 
 .location-container {
     position: absolute;
     display: flex;
     top: 100px;
-    left: 110px;
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .location-card {
@@ -133,4 +134,10 @@ nav a {
     opacity: 1;
     line-height: 3;
     background-color: black;
+}
+
+#contact {
+    height: 200px;
+    text-align: center;
+    line-height: 2.5;
 }
